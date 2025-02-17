@@ -28,5 +28,59 @@ body {
     width: 44rem;
 }
 
+h2,
+h3,
+h4,
+h5,
+.h2,
+.h3,
+.h4,
+.h5 {
+    font-family: gotham;
+    font-weight: 500;
+    color: var(--30_color);
+}
+
+.p,
+p {
+    font-family: gotham;
+    font-weight: 500;
+    color: silver;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.line {
+    width: 60px;
+    height: 10px;
+    background-color: var(--third-color);
+}
+
+/* navbar */
+
+nav {
+    box-shadow: var(--box-shadow);
+    background-color: transparent;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.vertical-line {
+    /*  Elemento Linha Vertical - Como pode ser visto na navbar (entre botao carrinho de COMPRAS e TROCA DE TEMA */
+    width: 1px;
+    border-radius: 5px;
+    height: 45px;
+    background-color: #a5a5b0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 
