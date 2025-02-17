@@ -18,10 +18,10 @@
 
 /* Definições Estilo */
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    
 }
 
 .logo-brand{
@@ -83,4 +83,7 @@ nav {
     margin-left: 10px;
 }
 
+.carrousel {
+    display: block;
 
+}
