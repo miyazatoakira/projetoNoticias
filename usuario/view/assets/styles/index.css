@@ -1,0 +1,32 @@
+/* Variáveis */
+:root {
+    /* PALHETA DE CORES DO PROJETO */
+    --secondary-color: #13203b;
+    --third-color: #fca311;
+    --fourty-color: #E5e5e5;
+    --c-body: #ffffff;
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s ease;
+}
+
+/* FONTES DO PROJETO */
+@font-face {
+    font-family: gotham;
+    src: url("../fonts/Gotham-Book.otf");
+}
+
+
+/* Definições Estilo */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-brand{
+    width: 44rem;
+}
+
+
+
