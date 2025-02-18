@@ -15,7 +15,7 @@
 
     const updateLogo = (theme) => {
       const logo = document.getElementById("logo-brand");
-      const carousel = document.getElementById("carouselExample");
+      const carousel = document.getElementById("carouselExampleCaptions");
   
       if (!logo) return;
   
