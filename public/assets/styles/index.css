@@ -45,7 +45,7 @@ h5,
 p {
     font-family: gotham;
     font-weight: 500;
-    color: silver;
+    color: #13203b;
 }
 
 a{
@@ -85,4 +85,29 @@ nav {
 .carrousel {
     display: block;
 
+}
+
+.carrousel img{
+    width: 80rem;
+}
+
+.carrousel{
+    position: absolute;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.noticia {
+    text-align: justify;
+    text-justify: auto;
+}
+.noticia .titulo p{
+    color: silver;
+}
+
+.noticia img{
+    width: 60rem;
+    
 }
