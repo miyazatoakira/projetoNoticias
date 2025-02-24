@@ -13,24 +13,24 @@
       return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
     }
 
-    const updateLogo = (theme) => {
-      const logo = document.getElementById("logo-brand");
-      const carousel = document.getElementById("carouselExampleCaptions");
+    // const updateLogo = (theme) => {
+    //   const logo = document.getElementById("logo-brand");
+    //   const carousel = document.getElementById("carouselExampleCaptions");
   
-      if (!logo) return;
+    //   if (!logo) return;
   
-      if (
-        theme === "dark" ||
-        (theme === "auto" &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        logo.src = "./assets/images/logo brazil_times white.svg";
-        carousel.className = "carousel slide";
-      } else {
-        logo.src = "./assets/images/logo brazil_times.svg";
-        carousel.className = "carousel carousel-dark slide";
-      }
-    };
+    //   if (
+    //     theme === "dark" ||
+    //     (theme === "auto" &&
+    //       window.matchMedia("(prefers-color-scheme: dark)").matches)
+    //   ) {
+    //     logo.src = "./assets/images/logo brazil_times white.svg";
+    //     carousel.className = "carousel slide";
+    //   } else {
+    //     logo.src = "./assets/images/logo brazil_times.svg";
+    //     carousel.className = "carousel carousel-dark slide";
+    //   }
+    // };
 
   
     const setTheme = theme => {
@@ -39,7 +39,7 @@
       } else {
         document.documentElement.setAttribute('data-bs-theme', theme)
       }
-      updateLogo(theme);
+      // updateLogo(theme);
     }
   
     setTheme(getPreferredTheme())

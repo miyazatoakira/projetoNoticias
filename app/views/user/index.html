@@ -30,138 +30,141 @@
         d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
     </symbol>
   </svg>
-  <header class="container-fluid mt-4">
-    <div class="row justify-content-center text-center">
-      <a class="navbar-brand mx-auto" href="../../views/user/index.html">
-        <img id="logo-brand" class="logo-brand" src="../../../public/assets/images/logo brazil_times.svg" alt="">
-      </a>
-    </div>
-  </header>
-  <nav class="navbar navbar-expand-lg mb-3  ">
-    <div class="container-fluid">
-      <ul class="navbar-nav nav-underline me-auto ms-5 ">
-        <li class="nav-item ">
-          <a class="nav-link link-body-emphasis" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-body-emphasis" href="#">Contato</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-body-emphasis" href="#">Sobre</a>
-        </li>
-      </ul>
-      
-      <ul class="navbar-nav ms-auto d-flex align-items-center">
-        <li class="nav-item login px-3 py-2 rounded-4">
-          <a href="#" class="link-body-emphasis">Login</a>
-        </li>
-        <li class="nav-item ms-2 cadastro rounded-4 px-3 py-2">
-          <a href="#l" class="link-body-emphasis">Cadastrar</a>
-        </li>
-        <div class="vertical-line"></div>
-        <li class="nav-item ">
-          <div class="dropdown bd-mode-toggle">
-            <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme"
-              type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-              <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
-                <use href="#circle-half"></use>
-              </svg>
-              <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-              <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
-                  aria-pressed="false">
-                  <svg class="bi me-2 opacity-50" width="1em" height="1em">
-                    <use href="#sun-fill"></use>
-                  </svg>
-                  Light
-                </button>
-              </li>
-              <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
-                  aria-pressed="false">
-                  <svg class="bi me-2 opacity-50" width="1em" height="1em">
-                    <use href="#moon-stars-fill"></use>
-                  </svg>
-                  Dark
-                </button>
-              </li>
-              <li>
-                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
-                  aria-pressed="true">
-                  <svg class="bi me-2 opacity-50" width="1em" height="1em">
+  <main class="row justify-content-center">
+    <div class="col-9">
+      <header class="container-fluid mt-4">
+        <div class="row justify-content-center text-center">
+          <a class="navbar-brand mx-auto" href="../../views/user/index.html">
+            <img id="logo-brand" class="logo-brand" src="../../../public/assets/images/logo brazil_times.svg" alt="">
+          </a>
+        </div>
+      </header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <ul class="navbar-nav nav-underline me-auto ms-5 ">
+            <li class="nav-item ">
+              <a class="nav-link link-body-emphasis" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-body-emphasis" href="#">Sobre</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ms-auto d-flex align-items-center">
+            <li class="nav-item login px-3 rounded-4">
+              <a href="#" class="link-body-emphasis">Login</a>
+            </li>
+            <li class="nav-item ms-2 cadastro rounded-4 px-3 py-2">
+              <a href="#l" class="link-body-emphasis">Cadastrar</a>
+            </li>
+            <div class="vertical-line"></div>
+            <li class="nav-item ">
+              <div class="dropdown bd-mode-toggle">
+                <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme"
+                  type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+                  <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
                     <use href="#circle-half"></use>
                   </svg>
-                  Auto
+                  <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
                 </button>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <hr class="hr mx-4">
+                <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+                  <li>
+                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+                      aria-pressed="false">
+                      <svg class="bi me-2 opacity-50" width="1em" height="1em">
+                        <use href="#sun-fill"></use>
+                      </svg>
+                      Light
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+                      aria-pressed="false">
+                      <svg class="bi me-2 opacity-50" width="1em" height="1em">
+                        <use href="#moon-stars-fill"></use>
+                      </svg>
+                      Dark
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="dropdown-item d-flex align-items-center active"
+                      data-bs-theme-value="auto" aria-pressed="true">
+                      <svg class="bi me-2 opacity-50" width="1em" height="1em">
+                        <use href="#circle-half"></use>
+                      </svg>
+                      Auto
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="hr">
+      <hr class="hr mx-2">
 
-  <section class="hero" data-bs-theme="light">
-    <div id="myCarousel carouselExample" class="carousel slide mb-6" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
+      <section class="hero" data-bs-theme="light">
+        <div id="myCarousel carouselExample" class="carousel slide mb-6" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
+          </div>
+          <div class="carousel-inner">
             <div class="carousel-item active">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                </svg>
-                <div class="container">
-                    <div class="carousel-caption text-start">
-                        <h1>Example headline.</h1>
-                        <p class="opacity-75">Some representative placeholder content for the first slide of the
-                            carousel.</p>
-                    </div>
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+              </svg>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Example headline.</h1>
+                  <p class="opacity-75">Some representative placeholder content for the first slide of the
+                    carousel.</p>
                 </div>
+              </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                </svg>
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                    </div>
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+              </svg>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Another example headline.</h1>
+                  <p>Some representative placeholder content for the second slide of the carousel.</p>
                 </div>
+              </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                </svg>
-                <div class="container">
-                    <div class="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                    </div>
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+              </svg>
+              <div class="container">
+                <div class="carousel-caption ">
+                  <h1>One more for good measure.</h1>
+                  <p>Some representative placeholder content for the third slide of this carousel.</p>
                 </div>
+              </div>
             </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+          </button>
+        </div>
 
-</section>
+      </section>
+
+    </div>
+  </main>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
